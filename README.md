@@ -1,56 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books with ES6
 
-> Description the project.
+> In this project we created a website on which you can store your favourite books. To get a better understanding of ES6 syntax and modular JavaScript this project is built with ES6.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3, JavaScript
+- Luxon.js
+- VS code, Github and Git
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+ Here you can access the live preview of the webiste.  [Live Demo](https://hammadsiddique.github.io/AwesomeBooks-ES6/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Basic knowledge of:
+    - Code editor like VS code, atom
+    - Programming languages: HTML, CSS, JavaScript
+    - Git and Github
+
 ### Setup
+
+Run the following command in your terminal or download the zip file from Github
+```
+git clone https://github.com/HammadSiddique/AwesomeBooks-ES6
+```
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Code editor: VS code, atom
+- Broswer: Google chrome, FireFox, Safari or Internet Explorer
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Hammad Siddique**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/HammadSiddique)
+- [Twitter](https://twitter.com/twitterhandle)
+- [LinkedIn](https://www.linkedin.com/in/hammad-siddique-6a5469231/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
