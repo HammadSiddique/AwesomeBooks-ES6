@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Averia Sans Libre", cursive;
+}
+
+.container {
+  margin: 0 20%;
+}
+
+.navbar {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+  padding: 1rem 1.2rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-items {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-items li {
+  border-right: 2px solid #000;
+  padding-right: 1.2rem;
+  cursor: pointer;
+}
+
+.link-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.active-link {
+  color: blue;
+}
+
+.nav-items .no-border {
+  border-right: 0;
+}
+
+.current-date {
+  float: right;
+  padding-top: 0.5rem;
+}
+
+.heading {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  padding: 10px;
+}
+
+.book-list {
+  border: 1px solid #000;
+  margin-bottom: 5%;
+}
+
+.remove-button {
+  padding: 0.2rem 1rem;
+  box-shadow: 4px 6px #000;
+}
+
+.new-book {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 22.5%;
+}
+
+#add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+#title,
+#author {
+  padding: 0.2rem 1rem;
+}
+
+.add-button {
+  align-self: flex-end;
+}
+
+.add-button button {
+  padding: 0.2rem 0.8rem;
+  box-shadow: 4px 6px #000;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #bdbcbb;
+}
+
+.contact-section {
+  margin: 5% 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info {
+  padding-right: 8%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+  padding: 1rem 1.2rem;
+  margin-top: 5%;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <nav class="navbar">
+          <div class="logo-div">
+            <a href="#" class="logo">Awesome Books</a>
+          </div>
+          <div class="nav">
+            <ul class="nav-items">
+              <li><a class="link-item active-link" href="#list">List</a></li>
+              <li><a class="link-item" href="#add-book">Add New</a></li>
+              <li class="no-border">
+                <a class="link-item" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <p class="current-date" id="date" onload="displayDate()"></p>
+      </header>
+      <section class="book-section" id="list">
+        <h1 class="heading">Awesome books</h1>
+        <div class="book-list"></div>
+      </section>
+      <!--add books form-->
+      <section class="new-book hide" id="add-book">
+        <h2 class="heading">Add a New Book</h2>
+        <form id="add-form">
+          <div>
+            <input type="text" placeholder="Title" id="title" required />
+          </div>
+          <div>
+            <input type="text" placeholder="Author" id="author" required />
+          </div>
+          <div class="add-button"><button type="submit">Add</button></div>
+        </form>
+      </section>
+      <section class="contact-section hide" id="contact">
+        <h2 class="heading">Contact Information</h2>
+        <p>
+          Do you have any questions? Or you just want to say hello! <br />
+          Then you can reach out to us!
+        </p>
+        <ul class="contact-info">
+          <li>Our email: LoremIspum@email.com</li>
+          <li>Our phone number: +985 23131123</li>
+          <li>Our address: Streetname 82 Country</li>
+        </ul>
+      </section>
+      <!-- footer section -->
+      <footer class="footer">
+        <div>copyright &copy; 2022</div>
+        <div><a>@developers</a></div>
+      </footer>
+    </main>
+    <script type ="module" src="./index.js"></script>
+  </body>
+</html>
