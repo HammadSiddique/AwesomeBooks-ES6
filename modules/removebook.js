@@ -1,4 +1,5 @@
-import { Book } from "./book.js";
+/* eslint import/prefer-default-export: "off" */
+import { Book } from './book.js';
 
 function removeBook(index) {
   const removeBooks = new Book();
