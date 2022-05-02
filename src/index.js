@@ -1,6 +1,9 @@
 /* eslint class-methods-use-this: ["error", { "exceptMethods": ["getBooks"] }] */
 import { Book } from "../modules/book.js";
-// import { Date } from "../modules/date.js";
+import { Date } from "../modules/date.js";
+import { removeBook } from "../modules/removebook.js";
+
+Date();
 
 const title = document.getElementById("title");
 const author = document.getElementById("author");
@@ -31,19 +34,12 @@ links.forEach((e) => {
   });
 });
 
-function removeBook(index) {
-  const removeBooks = new Book();
-  removeBooks.deleteBook(index);
-  window.onload = removeBooks.displayBooks();
-  console.log(index);
-}
+const removeButton = document.querySelectorAll(".remove-button");
 
-// function displayDate() {
-//   const d = new Date();
-//   const dformat =
-//     `${[d.getMonth() + 1, d.getDate(), d.getFullYear()].join(" ")},` +
-//     ` ${[d.getHours(), d.getMinutes(), d.getSeconds()].join(":")}`;
-//   document.getElementById("date").innerHTML = dformat;
-// }
-
-// window.onload = displayDate();
+removeButton.forEach((e) => {
+  e.addEventListener("click", () => {
+    const id = e.getAttribute("id");
+    removeBook(parseInt(id, 10));
+    window.location.reload();
+  });
+});
